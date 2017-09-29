@@ -1,0 +1,29 @@
+﻿<?xml version="1.0"?>
+
+<package>
+  <metadata>
+    <id>Enferno.Public.Logging</id>
+    <version>1.0.0.0</version>
+    <title>Enferno.Public.Logging</title>
+    <authors>Enferno AB</authors>
+    <owners>Enferno AB</owners>
+    <projectUrl>https://enfernopublic.codeplex.com/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Enferno Public Logging.</description>
+    <releaseNotes>
+      Enterprise library was updated to version 6.
+      Enferno.Public was updated to 1.0.17
+    </releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <tags>Enferno Public Logging</tags>
+    <dependencies>
+      <dependency id="Enferno.Public" version="1.0.17" />
+      <dependency id="log4net" version="2.0.3" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="Enferno.Public.Logging\bin\Debug\Enferno.Public.Logging.dll" target="lib/net45" />
+    <file src="Enferno.Public.Logging\bin\Debug\Enferno.Public.Logging.pdb" target="lib/net45" />
+    <file src="Enferno.Public.Logging\**\*.cs" target="src" />
+  </files>
+</package>
