@@ -3,21 +3,20 @@
 <package>
   <metadata>
     <id>Enferno.Public.Logging</id>
-    <version>1.0.0.0</version>
+    <version>2.0.0-beta</version>
     <title>Enferno.Public.Logging</title>
     <authors>Enferno AB</authors>
     <owners>Enferno AB</owners>
     <projectUrl>https://enfernopublic.codeplex.com/</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Enferno Public Logging.</description>
-    <releaseNotes>
-      Enterprise library was updated to version 6.
-      Enferno.Public was updated to 1.0.17
+    <releaseNotes>    
+      Enferno.Public was updated to 2.0.0-beta
     </releaseNotes>
     <copyright>Copyright 2015</copyright>
     <tags>Enferno Public Logging</tags>
     <dependencies>
-      <dependency id="Enferno.Public" version="1.0.17" />
+      <dependency id="Enferno.Public" version="2.0.0-beta" />
       <dependency id="log4net" version="2.0.3" />
     </dependencies>
   </metadata>
