@@ -16,7 +16,7 @@ namespace Enferno.Public.Logging.Tests
             logger = LogManager.GetLogger(GetType());
         }
 
-        [TestMethod]
+        [TestMethod, TestCategory("UnitTest")]
         public void CanLogToLogEntriesThruLog4NetTraceListener()
         {
             Log.LogEntry
