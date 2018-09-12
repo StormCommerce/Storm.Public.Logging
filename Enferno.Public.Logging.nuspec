@@ -3,7 +3,7 @@
 <package>
   <metadata>
     <id>Enferno.Public.Logging</id>
-    <version>2.1.0-beta</version>
+    <version>2.1.0</version>
     <title>Enferno.Public.Logging</title>
     <authors>Storm Commerce AB</authors>
     <owners>Storm Commerce AB</owners>
