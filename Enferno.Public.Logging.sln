@@ -17,7 +17,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4ED070BB-819F-4D7E-8C50-77BC6A9CD4CA}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
-		Enferno.Public.Loging.nuspec = Enferno.Public.Loging.nuspec
+		Enferno.Public.Logging.nuspec = Enferno.Public.Logging.nuspec
 		README.md = README.md
 	EndProjectSection
 EndProject
@@ -40,7 +40,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Logging.6.0.1304.0\lib\NET45
 		SolutionGuid = {30B8B2A5-9498-4146-AE9E-3562283FC8D3}
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Logging.6.0.1304.0\lib\NET45
 	EndGlobalSection
 EndGlobal
