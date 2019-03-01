@@ -3,7 +3,7 @@
 <package>
   <metadata>
     <id>Enferno.Public.Logging</id>
-    <version>2.2.0</version>
+    <version>2.1.1</version>
     <title>Enferno.Public.Logging</title>
     <authors>Storm Commerce AB</authors>
     <owners>Storm Commerce AB</owners>
@@ -11,13 +11,23 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Enferno Public Logging.</description>
     <releaseNotes>
-Enferno.Public was updated to 2.2.0.
+Enferno.Public was updated to 2.1.1.
+
+* Added JiraTraceListener, which creates an Issue over Jira Rest-API.
+* Updated Target Framework to 4.5.2 to allow usage of Atlassian SDK dependency.
+
+The following properties are needed on listener type "Enferno.Public.Logging.JiraTraceListener, Enferno.Public.Logging":
+ - endpoint = Url of Jira Software Cloud instance
+ - userName = User name of reporting Jira user
+ - password = User password for reporter
+ - component = (optional) Specifies component in which alert was raised
     </releaseNotes>
-    <copyright>Copyright 2019</copyright>
+    <copyright>Copyright 2018</copyright>
     <tags>Enferno Public Logging</tags>
     <dependencies>
-      <dependency id="Enferno.Public" version="2.2.0" />
+      <dependency id="Enferno.Public" version="2.0.0" />
       <dependency id="log4net" version="2.0.0" />
+      <dependency id="Atlassian.SDK" version="10.3.2" />
     </dependencies>
   </metadata>
   <files>
