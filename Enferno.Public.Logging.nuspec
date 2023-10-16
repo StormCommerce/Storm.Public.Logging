@@ -11,15 +11,17 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Enferno Public Logging.</description>
     <releaseNotes>
-      Enferno.Public was updated to 2.5.11.
+      Enferno.Public was updated to 2.5.13.
       Updated .NET to 4.7.2
     </releaseNotes>
     <copyright>Copyright 2018</copyright>
     <tags>Enferno Public Logging</tags>
     <dependencies>
-      <dependency id="Enferno.Public" version="2.5.11" />
-      <dependency id="log4net" version="2.0.15" />
-      <dependency id="Atlassian.SDK" version="10.4.0" />
+      <group targetFramework=".NETFramework4.7.2">
+        <dependency id="Enferno.Public" version="2.5.13" />
+        <dependency id="log4net" version="2.0.15" />
+        <dependency id="Atlassian.SDK" version="10.4.0" />
+      </group>
     </dependencies>
   </metadata>
   <files>
